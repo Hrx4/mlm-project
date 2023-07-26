@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-screen{
+  display: flex;
+  width: 100vw;
+  background-image: url(./pexels-codioful-\(formerly-gradienta\)-7130467.jpg);
+  background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile{
+  height: 100vh;
+  width: 30%;
+  color: #0e1118;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details{
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-wrap:wrap;
+  overflow-y: scroll;
+}
+
+.profile-border{
+  height: 65vh;
+  background: #000000;
+  margin: 10px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+  
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  
+  backdrop-filter: blur(6px);
+}
+
+.profile-details{
+  /* background-color:yellowgreen; */
+  height:100%;
+  padding-left:  5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+}
+.sponser{
+  /* background-color: yellow; */
+  height: 100%;
+  padding-top: 40px;
+
+}
+.referal{
+/* background-color: wheat; */
+height: 100%;
+padding-left:  5px;
+}
+
+.sponser-id{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.referal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.referal-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration:underline;
+  
+}
+.referal-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  height: 100px;
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+  
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  
+  backdrop-filter: blur(6px);
+  
+}
+.logo{
+  display:flex ;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+ 
+  border-radius: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.pink{
+  background-color: pink;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.pink-1{
+  color: pink;
+}
+.blue-1{
+  color: blue;
+}
+.green-1{
+  color: green;
+}
+.yellow-1{
+  color: yellow;
 }
